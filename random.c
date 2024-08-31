@@ -6,7 +6,6 @@
 
 #include <stdlib.h>
 
-void rand_char(char *s) {
-    char random_character = (rand() % 26) + 65;
-    *s = random_character;
+char randchar() {
+    return (rand() % 26) + 65;
 }

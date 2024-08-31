@@ -5,6 +5,6 @@
 #ifndef RANDOM_H
 #define RANDOM_H
 
-void rand_char(char *s);
+char randchar();
 
 #endif //RANDOM_H
